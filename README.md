@@ -23,6 +23,8 @@ TELEGRAM_CHAT_ID=your_chat_id_here
 ```bash
 python vuln_monitor.py
 ```
+<img width="655" height="429" alt="image" src="https://github.com/user-attachments/assets/80b7c47f-e746-45c1-a0f3-7853ffff631f" />
+<img width="480" height="587" alt="Notification" src="https://github.com/user-attachments/assets/687650e5-2758-43f0-99a1-8c1cd94f259d" />
 
 ## Sources monitored
 
