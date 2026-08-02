@@ -50,8 +50,8 @@ load_dotenv()
 #  CONFIGURATION — edit these to your needs
 # ─────────────────────────────────────────────
 
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "8492871385:AAFKWwoUjUQACmupu5uaSM7WepQXvRjyI6g")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-940105360")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN", "...........")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "...........")
 
 # Minimum CVSS score to alert on (0-10). 7.0 = High+, 9.0 = Critical only
 MIN_CVSS = 7.0
