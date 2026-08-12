@@ -45,32 +45,7 @@ NVD / CISA KEV / CERT-In / RSS / Researcher Sources
                   Telegram Alerts
 
 
-## Key Capabilities
 
-- Multi-source vulnerability intelligence collection
-- CVE and CISA KEV monitoring
-- APT and geographic keyword tagging
-- Potential zero-day detection
-- Duplicate alert suppression using local state
-- Automated Telegram notifications
-- RSS and web-based intelligence collection
-- Scheduled monitoring and alerting
-  
-## Sample workflow
-CVE discovered → source validated → APT/geo keyword match → deduplicated → priority assigned → Telegram alert
-
-## Setup
-
-```bash
-pip install requests feedparser beautifulsoup4 schedule python-dotenv
-```
-
-Create a `.env` file (never commit this):
-
-```
-TELEGRAM_TOKEN=your_bot_token_here
-TELEGRAM_CHAT_ID=your_chat_id_here
-```
 
 ## Run
 
