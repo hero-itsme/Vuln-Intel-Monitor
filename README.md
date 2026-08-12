@@ -18,7 +18,6 @@ The workflow follows a CTI-oriented approach:
 **Collect → Process → Enrich → Prioritize → Alert**
 
 ## Architecture
-
 ```text
 NVD / CISA KEV / CERT-In / RSS / Researcher Sources
                          │
@@ -33,18 +32,18 @@ NVD / CISA KEV / CERT-In / RSS / Researcher Sources
               ├── CVE extraction
               ├── APT keyword tagging
               ├── Geographic tagging
-              └── Zero-day detection
+              └── Potential zero-day detection
                          │
                          ▼
                    Deduplication
                          │
                          ▼
-                   Alert Engine
+                    Alert Engine
                          │
                          ▼
                   Telegram Alerts
                   
- **Key Capabilities**
+## Key Capabilities
 
 - Multi-source vulnerability intelligence collection
 - CVE and CISA KEV monitoring
@@ -57,10 +56,10 @@ NVD / CISA KEV / CERT-In / RSS / Researcher Sources
   
 
 
-**Sample workflow**
+##Sample workflow
 CVE discovered → source validated → APT/geo keyword match → deduplicated → priority assigned → Telegram alert
 
-**Setup**
+##Setup
 
 ```bash
 pip install requests feedparser beautifulsoup4 schedule python-dotenv
