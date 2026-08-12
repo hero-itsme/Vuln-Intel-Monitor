@@ -56,10 +56,10 @@ NVD / CISA KEV / CERT-In / RSS / Researcher Sources
   
 
 
-##Sample workflow
+## Sample workflow
 CVE discovered → source validated → APT/geo keyword match → deduplicated → priority assigned → Telegram alert
 
-##Setup
+## Setup
 
 ```bash
 pip install requests feedparser beautifulsoup4 schedule python-dotenv
