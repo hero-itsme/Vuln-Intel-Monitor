@@ -5,6 +5,9 @@ sources, Android Security Bulletins, and CERT-In advisories, then pushes
 alerts to Telegram. Includes geo/APT keyword tagging, zero-day detection,
 and dedupe via local state.
 
+## Architecture diagram
+Sources → Collector → Parser → Enrichment → Deduplication → Alert Engine → Telegram
+
 ## Setup
 
 ```bash
